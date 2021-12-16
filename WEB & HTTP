@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T02:53:47.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" etag="-5DlYWiJ8Hi5pRBMCSNY" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T03:15:31.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" etag="MDY1REY6AOdBGBt_Y4hU" version="15.9.4" type="github">
   <diagram id="BNoMyuGT_9OSy726sLDe" name="第 1 页">
     <mxGraphModel dx="1550" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="yd17Kkzj_IjkikECWAgt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="yd17Kkzj_IjkikECWAgt-8" target="yd17Kkzj_IjkikECWAgt-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yd17Kkzj_IjkikECWAgt-17" value="TCP/IP请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" vertex="1" connectable="0" parent="yd17Kkzj_IjkikECWAgt-16">
+        <mxCell id="yd17Kkzj_IjkikECWAgt-17" value="TCP/IP请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="yd17Kkzj_IjkikECWAgt-16">
           <mxGeometry x="-0.1525" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -95,6 +95,49 @@
         </mxCell>
         <mxCell id="yd17Kkzj_IjkikECWAgt-39" value="&lt;font style=&quot;font-size: 22px&quot;&gt;解决进程寻址问题&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="314" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-40" value="&lt;font style=&quot;font-size: 22px&quot;&gt;需要穿过层间的传输信息&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="291" y="730" width="246" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="yd17Kkzj_IjkikECWAgt-41" target="yd17Kkzj_IjkikECWAgt-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-46" value="传输报文" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="yd17Kkzj_IjkikECWAgt-45">
+          <mxGeometry x="-0.2019" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="yd17Kkzj_IjkikECWAgt-41" target="yd17Kkzj_IjkikECWAgt-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-48" value="&lt;font style=&quot;font-size: 12px&quot;&gt;进程标识 IP+TCP(UDP)端口&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontColor=#000000;" vertex="1" connectable="0" parent="yd17Kkzj_IjkikECWAgt-47">
+          <mxGeometry x="-0.1794" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="yd17Kkzj_IjkikECWAgt-41" target="yd17Kkzj_IjkikECWAgt-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-50" value="对方的进程标识" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="yd17Kkzj_IjkikECWAgt-49">
+          <mxGeometry x="-0.1533" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-41" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=22;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-42" value="&lt;font color=&quot;#000000&quot;&gt;传送方&lt;/font&gt;" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=compute_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="yd17Kkzj_IjkikECWAgt-41">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-43" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=22;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="537" y="820" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-44" value="&lt;font color=&quot;#000000&quot;&gt;接收方&lt;/font&gt;" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=compute_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="yd17Kkzj_IjkikECWAgt-43">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
