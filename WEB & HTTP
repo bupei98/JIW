@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T03:23:23.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" etag="9R-Db8_UikLBx6N_uyqR" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T03:25:49.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" etag="CgMDoZDj2nicjfkgIWCf" version="15.9.4" type="github">
   <diagram id="BNoMyuGT_9OSy726sLDe" name="第 1 页">
     <mxGraphModel dx="1550" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -204,6 +204,9 @@
         </mxCell>
         <mxCell id="yd17Kkzj_IjkikECWAgt-79" value="&lt;b&gt;&lt;font color=&quot;#cc0066&quot;&gt;四元组&lt;/font&gt;&lt;/b&gt;" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;strokeColor=#858B94;fillColor=none;verticalAlign=top;align=center;fontColor=#858B94;dashed=1;spacingTop=3;" vertex="1" parent="1">
           <mxGeometry x="280" y="1180" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yd17Kkzj_IjkikECWAgt-80" value="四元组只在本地标识 对方不知道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1280" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
